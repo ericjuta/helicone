@@ -12,8 +12,8 @@ import {
 } from "@tanstack/react-table";
 import Link from "next/link";
 import React, { useEffect, useMemo, useState } from "react";
-import { Result } from "../../../../packages/common/result";
 import { TimeInterval } from "../../../../lib/timeCalculations/time";
+import { Result } from "../../../../packages/common/result";
 import { useLocalStorage } from "../../../../services/hooks/localStorage";
 import { SingleFilterDef } from "../../../../services/lib/filters/frontendFilterDefs";
 import { OrganizationFilter } from "../../../../services/lib/organization_layout/organization_layout";
